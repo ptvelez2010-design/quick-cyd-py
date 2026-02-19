@@ -2,18 +2,33 @@
 #
 # a. Replace "None" on line 2 with a list that contains the names of the seven dwarves
 # Grumpy, Happy, Sleepy, Sneezy, Dopey, Bashful, and Doc
-# dwarves = None
+dwarves = ["Grumpy","Happy", "Sleepy", "Sneezy", "Dopey", "Bashful", "Doc"]
+print(dwarves)
+
 # print("The seven dwarves: " + str(dwarves))
 
 # b. Join the crew! Write one line below that adds your name 
 #    write a line that prints the new list
+dwarves.append("Priyah")
 
+dwarves: list[str] = ["Grumpy","Happy", "Sleepy", "Sneezy", "Dopey", "Bashful", "Doc", "Priyah"]
+print[-1]
+
+dwarves.remove('Happy')
+print(dwarves)
+
+dwarves.sort()
+
+one_to_ten = list(range(0,101))
+print(one_to_ten)
 # c. There are two ways to print out your name from the list using indexes. Do them both
 # print(dwarves[8])
 # print(dwarves[8])
 
+
 # d. Uncomment the line below and print Happy's name using his index in the list
 # print(dwarves[8])
+
 
 # e. Maybe eight is two many, write a line to remove a specific dwarf's name
 # (this can be you or another dwarf)
